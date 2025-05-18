@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Căn giữa các mục menu */
+}
+
+nav ul li {
+    display: inline; /* Hiển thị các mục trên cùng một dòng */
+    margin: 0 15px; /* Khoảng cách giữa các mục */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px; /* Bo tròn nhẹ góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+/* CSS cơ bản cho các section để bạn thấy sự chuyển đổi khi nhấp vào menu */
+section {
+    scroll-margin-top: 60px; /* Đảm bảo không bị header che khuất khi scroll */
+}

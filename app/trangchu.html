@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ - WATERDG.VN</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Phông chữ hiện đại hơn */
+            background-color: #f4f7f6; /* Màu nền nhẹ nhàng */
+            color: #333; /* Màu chữ mặc định tối hơn */
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px; /* Giảm độ rộng tối đa để dễ đọc hơn */
+            margin: 40px auto; /* Căn giữa và tạo khoảng cách trên dưới */
+            background: #fff; /* Nền trắng tinh tế */
+            border-radius: 8px; /* Bo tròn nhẹ nhàng */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+            padding: 30px;
+        }
+
+        .logo-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Logo bên trái */
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee; /* Đường kẻ ngang nhẹ */
+        }
+
+        .logo-header img.logo {
+            height: 50px; /* Kích thước logo nhỏ hơn một chút */
+            margin-right: 15px; /* Khoảng cách giữa logo và tiêu đề */
+        }
+
+        h1 {
+            color: #2c3e50; /* Màu tiêu đề trang nhã */
+            font-size: 2.2em; /* Kích thước chữ vừa phải */
+            margin: 0;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 25px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05); /* Đổ bóng nhẹ cho banner */
+        }
+
+        .intro {
+            text-align: center;
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 35px;
+            line-height: 1.7;
+        }
+
+        .navbar {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block; /* Để căn giữa các mục */
+        }
+
+        .nav-menu li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #3498db; /* Màu liên kết nổi bật */
+            font-weight: bold;
+            transition: color 0.3s ease;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        .nav-menu a:hover {
+            color: #2980b9;
+            background-color: #f0f8ff; /* Hiệu ứng khi di chuột qua */
+        }
+
+        .section {
+            padding: 25px 0;
+            border-top: 1px solid #eee;
+        }
+
+        .section:first-child {
+            border-top: none; /* Loại bỏ đường kẻ trên phần đầu tiên */
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .btn-group {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 8px;
+            background-color: #3498db; /* Màu nút hiện đại */
+            border: 1px solid #2980b9;
+            border-radius: 6px;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-decoration: none; /* Loại bỏ gạch chân nếu dùng thẻ <a> */
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+            transform: scale(1.03);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-header">
+            <img src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-water-splash-drop-logo-png-image_5279736.jpg" alt="Logo" class="logo">
+            <h1>WATERDG.VN</h1>
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="/">Trang chủ</a></li>
+                <li><a href="/hosting.html">Hosting</a></li>
+                <li><a href="dichvu.html">Dịch vụ</a></li>
+                <li><a href="/maychu.html">Máy chủ vật lý</a></li>
+                <li><a href="/giaiphap.html">Giải pháp</a></li>
+                <li><a href="/thongtin.html">Thông tin</a></li>
+                <li><a href="/dieukhoan.html">Điều khoản</a></li>
+            </ul>
+        </nav>
+        <img src="https://cloudmini.net/wp-content/uploads/2023/04/rdp-banner-2-1400x416.png" alt="Banner" class="banner">
+
+        <div class="section">
+            <h2>🌐 Dịch vụ VPS chuyên nghiệp</h2>
+            <p>
+                - Tài nguyên riêng biệt: CPU, RAM, SSD tốc độ cao<br>
+                - Hạ tầng đặt tại Việt Nam – tốc độ cực nhanh<br>
+                - Hỗ trợ 24/7, bảo mật tối đa<br>
+                - Phù hợp chạy Website, App, API, Remote Desktop...
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>💰 Giá chỉ từ 99.000đ/tháng</h2>
+            <p>
+                Chúng tôi cam kết mức giá cạnh tranh nhất với chất lượng dịch vụ hàng đầu. Bạn có thể lựa chọn nhiều cấu hình VPS tùy theo nhu cầu.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Tại sao chọn WATERDG.VN?</h2>
+            <p>
+                - Hệ thống tự động cài đặt nhanh chóng chỉ trong vài phút.<br>
+                - Bảng điều khiển thân thiện, dễ sử dụng cho cả người mới.<br>
+                - Cam kết uptime 99.99%, đảm bảo hoạt động liên tục.<br>
+                - Giao diện thanh toán rõ ràng, hỗ trợ nhiều phương thức tiện lợi.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>🔐 Cam kết của chúng tôi</h2>
+            <p>
+                WATERDG.VN cam kết không ngừng cải tiến chất lượng dịch vụ và hỗ trợ khách hàng 24/7.<br>
+                Bảo mật và sự riêng tư của bạn là ưu tiên hàng đầu của chúng tôi.
+            </p>
+        </div>
+
+        <div class="btn-group">
+            <a href="/dangky.html" class="btn">Đăng ký ngay</a>
+            <a href="/lienhe.html" class="btn">Liên hệ</a>
+        </div>
+
+        <footer>
+            BẢN QUYỀN © 2025 - WATERDG.VN | Hotline: 1900 9999
+        </footer>
+    </div>
+</body>
+</html>

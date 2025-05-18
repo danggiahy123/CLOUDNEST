@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "Components/slices/CartSlice.jsx", "Components/store/AppStore.jsx", "app/_layout.jsx", "app/notification.jsx", "app/index.jsx"  ]
 }

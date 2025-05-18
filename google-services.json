@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982281288813",
+    "project_id": "lab8-dang-gia-hy",
+    "storage_bucket": "lab8-dang-gia-hy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982281288813:android:4401b3c02a18fa04371364",
+        "android_client_info": {
+          "package_name": "com.ReactNative1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZWf91kSFMUAihRTj8ZFFs9KT1XqT47YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
